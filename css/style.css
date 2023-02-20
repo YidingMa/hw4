@@ -118,6 +118,7 @@ nav a:focus{
 
   /* Requirement 12 code here -- Do not remove this comment. */
   .container{
+      display: grid;
       grid-template-columns: 50px auto 500px auto 500px;
       grid-template-rows: 300px 300px 300px 300px;
   }
@@ -125,14 +126,14 @@ nav a:focus{
 
   /* Requirement 13 code here -- Do not remove this comment. */
  .about, .method, .clients-image, .contact-image{
-     grid-column-start: 3;
-     grid-column-end: span 2;
+     display: grid;
+     grid-column: 3/span 2;
  }
 
   /* Requirement 14 code here -- Do not remove this comment. */
  .clients, .contact, .about-image, .method-image{
-     grid-column-start: 2;
-     grid-column-end: span 2;
+     display: grid;
+     grid-column: 2/span 2;
  }
 
   /* Requirement 15 code here -- Do not remove this comment. */
