@@ -133,12 +133,14 @@ nav a:focus{
 
   /* Requirement 14 code here -- Do not remove this comment. */
  .clients, .contact, .about-image, .method-image{
-     grid-column-start: 3;
+     grid-column-start: 2;
      grid-column-end: span 2;
  }
 
   /* Requirement 15 code here -- Do not remove this comment. */
-
+.about-image, .method-image, .clients-image, .contact-image{
+    overflow: hidden;
+}
 }
 /** Code for prefers reduced motion **/
 /* Make no changes below this line.
