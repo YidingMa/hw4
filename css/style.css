@@ -99,7 +99,7 @@ nav a:focus{
   }
   nav li{
     float: right;
-    margin-left: 0;
+    margin-left: 5%;
     margin-right:0;
   }
 
