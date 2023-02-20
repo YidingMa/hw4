@@ -28,6 +28,7 @@ nav a:focus{
     grid-auto-columns: 1fr 5fr 1fr;
     grid-template-columns:none;
     grid-template-rows: none;
+    row-gap: normal;
 }
 
   /* Requirement 4 code here -- Do not remove this comment. */
@@ -109,7 +110,6 @@ nav a:focus{
   
   /* Requirement 11 code here -- Do not remove this comment. */
     .skip:focus{
-
     padding-top: 20px;
     }
 
@@ -117,8 +117,11 @@ nav a:focus{
 
   /* Requirement 12 code here -- Do not remove this comment. */
   .container{
-      grid-auto-columns: 50px auto 500px auto 500px;
-      grid-auto-rows: 300px 300px 300px 300px;
+      display: block;
+      grid-template-columns: 50px auto 500px auto 500px;
+      grid-template-rows: 300px 300px 300px 300px;
+      row-gap: normal;
+
   }
 
 
