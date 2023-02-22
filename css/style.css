@@ -95,11 +95,8 @@ nav a:focus{
     /* Requirement 10 code here -- Do not remove this comment. */
 
     text-align:right;
-    overflow: hidden;
   }
   nav li{
-    float: right;
-    text-align: right;
     margin-left: 5%;
     margin-right:0;
   }
